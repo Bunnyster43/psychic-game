@@ -41,14 +41,14 @@
 
         if (userGuess == computerGuess) {
             wins++;
-            alert('Way to go! You\'ve guesesed corrrectly. You Won!');
+            alert('You Won!');
             guessesLeft = 10;
             guessesSoFar.length = 0;
         }
 
         else if (guessesLeft == 0){
             losses++;
-            alert('You didn\'t guess the correct letter. You lost. Let\'s try again.');
+            alert('You lost.');
             guessesLeft = 10;
             guessesSoFar.length = 0;
         }
