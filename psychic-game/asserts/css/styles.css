@@ -1,0 +1,29 @@
+body {
+	font-size: 18px;
+	line-height: 34px;
+	font-family: ;
+	color: #black;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, p {
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-weight: 700;
+	color : black;
+	font-size: 30px;
+	line-height: 49px;
+	border-bottom: 3px solid #ddd;
+	padding-bottom: 20px;
+
+}
+
+div {
+	margin: 20px;
+	padding: 10px;
+}
